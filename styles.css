@@ -22,276 +22,6 @@ body {
     margin: 0 auto;
 }
 
-
-/* Top Bar */
-/* .top-bar {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-}
-
-.social-media a {
-    color: white;
-    margin-right: 15px;
-    text-decoration: none;
-}
-
-.social-media a:hover {
-    color: #ffba00;
-}
-
-.contact-info {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.contact-info span {
-    display: flex;
-    align-items: center;
-}
-
-.contact-info i {
-    margin-right: 5px;
-}
-
-.call-me-back {
-    background-color: #a8d200;
-    color: black;
-    padding: 8px 15px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.call-me-back:hover {
-    background-color: #8bb000;
-}
-
-@media (max-width: 768px) {
-    .top-bar {
-        flex-direction: column;
-        gap: 10px;
-        padding: 5px 0;
-    }
-} */
-
-
-/* Main Header */
-/* .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    background-color: white;
-}
-
-.logo img {
-    height: 70px;
-    width: 70px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #333;
-    padding: 10px 15px;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #ffba00;
-} */
-
-/* Highlighted Menu */
-/* nav ul li a.active {
-    color: #ffba00;
-    position: relative;
-}
-
-nav ul li a.active::after {
-    content: '';
-    width: 40px;
-    height: 4px;
-    background-color: #ffba00;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-
-
-/* Top Bar */
-/* .top-bar {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-}
-
-.social-media a {
-    color: white;
-    margin-right: 15px;
-    text-decoration: none;
-}
-
-.social-media a:hover {
-    color: #ffba00;
-}
-
-.contact-info {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.contact-info span {
-    display: flex;
-    align-items: center;
-}
-
-.contact-info i {
-    margin-right: 5px;
-}
-
-.call-me-back {
-    background-color: #a8d200;
-    color: black;
-    padding: 8px 15px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.call-me-back:hover {
-    background-color: #8bb000;
-} */
-
-/* Responsive top bar */
-/* @media (max-width: 768px) {
-    .top-bar {
-        flex-direction: column;
-        gap: 10px;
-        padding: 5px 0;
-        text-align: center;
-    }
-
-    .contact-info {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .social-media {
-        margin-bottom: 10px;
-    }
-} */
-
-/* Main Header */
-/* .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    background-color: white;
-}
-
-.logo img {
-    height: 70px;
-    width: 70px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #333;
-    padding: 10px 15px;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #ffba00;
-} */
-
-/* Highlighted Menu */
-/* nav ul li a.active {
-    color: #ffba00;
-    position: relative;
-}
-
-nav ul li a.active::after {
-    content: '';
-    width: 40px;
-    height: 4px;
-    background-color: #ffba00;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-
-/* Responsive header navigation */
-/* @media (max-width: 768px) {
-    .main-header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        padding: 0;
-    }
-
-    nav ul li a {
-        padding: 10px;
-        font-size: 18px;
-    }
-} */
-
-/* Further adjustments for very small screens */
-/* @media (max-width: 480px) {
-    .logo img {
-        height: 50px;
-        width: 50px;
-    }
-
-    nav ul li a {
-        font-size: 16px;
-    }
-
-    .call-me-back {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-    }
-} */
-
 /* Top Bar */
 .top-bar {
     background-color: #333;
@@ -364,16 +94,16 @@ nav ul li a.active::after {
 }
 
 nav {
-    flex-grow: 1; /* Allows nav to grow and take up space */
+    flex-grow: 1; 
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-end; 
 }
 
 nav ul {
     list-style: none;
-    display: flex; /* Keep the items in a line */
-    gap: 20px; /* Spacing between items */
-    padding-left: 0; /* Remove default padding */
+    display: flex; 
+    gap: 20px;
+    padding-left: 0; 
 }
 
 nav ul li {
@@ -412,51 +142,51 @@ nav ul li a.active::after {
 /* Responsive adjustments */
 @media (max-width: 1024px) {
     nav ul {
-        gap: 15px; /* Reduce gap for larger screens */
+        gap: 15px; 
     }
 
     nav ul li a {
-        font-size: 14px; /* Slightly smaller font size */
-        padding: 8px 12px; /* Adjust padding */
+        font-size: 14px; 
+        padding: 8px 12px; 
     }
 }
 
 @media (max-width: 768px) {
     .main-header {
-        flex-direction: row; /* Keep elements in a row */
-        align-items: center; /* Align items in the center vertically */
+        flex-direction: row; 
+        align-items: center; 
     }
 
     nav ul {
-        flex-direction: row; /* Ensure navigation items are in a line */
-        gap: 10px; /* Reduce gap */
-        width: auto; /* Reset width */
-        padding: 0; /* Reset padding */
+        flex-direction: row; 
+        gap: 10px; 
+        width: auto; 
+        padding: 0;
     }
 
     nav ul li {
-        width: auto; /* Allow width to adjust automatically */
+        width: auto; 
     }
 
     nav ul li a {
-        padding: 10px; /* Adjust padding for easier tapping */
-        text-align: center; /* Center text */
+        padding: 10px; 
+        text-align: center; 
     }
 }
 
 @media (max-width: 480px) {
     .logo img {
-        height: 50px; /* Smaller logo size */
-        width: 50px; /* Smaller logo size */
+        height: 50px; 
+        width: 50px; 
     }
 
     nav ul {
-        gap: 5px; /* Further reduce gap */
+        gap: 5px;
     }
 
     nav ul li a {
-        font-size: 12px; /* Smaller font size for very small screens */
-        padding: 5px 10px; /* Adjust padding */
+        font-size: 12px;
+        padding: 5px 10px; 
     }
 }
 
